@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- outer aura ring -->
+    <path
+        android:pathData="M54,54m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0"
+        android:strokeWidth="5"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="28"
+                android:startY="28"
+                android:endX="80"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#FF22D3EE" android:offset="0.0" />
+                <item android:color="#FF3B82FF" android:offset="0.5" />
+                <item android:color="#FF7B5CFF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- inner glass orb -->
+    <path
+        android:pathData="M54,54m-13,0a13,13 0,1 1,26 0a13,13 0,1 1,-26 0"
+        android:fillAlpha="0.9">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="50"
+                android:centerY="48"
+                android:gradientRadius="20"
+                android:type="radial">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#FF7B5CFF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
